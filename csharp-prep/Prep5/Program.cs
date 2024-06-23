@@ -13,8 +13,8 @@ class Program
         
         full_name = f"{last_name}, {first_name} {last_name}"
 
-        
-        print("test")
+        test = full_name
+        print(test)
 
     }
 }
