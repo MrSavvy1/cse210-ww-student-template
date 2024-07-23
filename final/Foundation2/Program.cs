@@ -1,4 +1,7 @@
-// Address.cs
+using System;
+using System.Collections.Generic;
+using System.Text;
+
 public class Address
 {
 		private string street;
@@ -25,7 +28,6 @@ public class Address
 		}
 }
 
-// Customer.cs
 public class Customer
 {
 		private string name;
@@ -46,7 +48,6 @@ public class Customer
 		}
 }
 
-// Product.cs
 public class Product
 {
 		private string name;
@@ -73,7 +74,6 @@ public class Product
 		}
 }
 
-// Order.cs
 public class Order
 {
 		private List<Product> products;
@@ -118,7 +118,6 @@ public class Order
 		}
 }
 
-// Program.cs
 class Program
 {
 		static void Main(string[] args)
